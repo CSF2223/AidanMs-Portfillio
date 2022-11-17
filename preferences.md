@@ -1,0 +1,10 @@
+
+Color Palette:
+background color: #
+font color: #
+secondary color: #
+tertiary color: #
+
+fonts:
+
+
