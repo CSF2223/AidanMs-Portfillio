@@ -1,6 +1,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
@@ -42,7 +51,8 @@
 }
 
 .navbar-links li:hover {
-    background-color: #361566;
+    background-color: #093030;
+    font-size: 2rem;
 }
 
 .toggle-button {
@@ -79,7 +89,7 @@
 
 .bottomNav li a {
     text-decoration: none;
-    color: #c5b358;
+    color: #FFB037;
     display: block;
 }
  

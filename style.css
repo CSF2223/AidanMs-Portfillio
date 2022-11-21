@@ -1,14 +1,6 @@
-/*
-Color Palette
-background color: #200439
-primary: #512C73
-secondary: #361356
-tertiary: #6F4D8F
-accent: #9277AC
-vegasGold: #c5b358
-white: #fff
-black: #000  
-*/
+
+
+
 
 html {
     /* If we add any paddig or border onto an element it does not affect the width of the element */
@@ -20,7 +12,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #200439;
+    background-color: #0F3D3E;
     color: #fff;
 }
 
@@ -50,7 +42,7 @@ body {
 }
 
 .heroName {
-    color: #c5b358;
+    color: #FFB037;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
@@ -65,25 +57,63 @@ body {
 
 .heroButton {
     margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    
 }
 
-.button {
-    background-color: #fff;
+.aboutMeButton {
+    background-color: #FFE268;
     padding: 1rem;
-    border: 1px solid #9277AC;
-    border-radius: 25px;
+    border: 1px solid #FFB037;
+    border-radius: 25px 0px 0px 25px;
     font-size: 0.9rem;
     font-weight: 700;
-    color: #2000439;
+    color: #100F0F;
     text-decoration: none;
-    box-shadow: 8px 8px 4px #000;
+    box-shadow: 10px 10px #000; 
+    margin: 0rem;
 }
 
-.button:hover {
-    background-color: #361356;
-    color: #c5b358;
-    transform: scale(1.5)
-    /* (150% zoom - note: if the zoom is too large, it will go outside the viewport) */
+.blogsButton {
+    background-color: #FFE268;
+    padding: 1rem;
+    border: 1px solid #FFB037;
+    border-radius: 0px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #100F0F;
+    text-decoration: none;
+    box-shadow: 10px 10px #000; 
+    margin: 0rem;
+}
+
+.projectButton {
+    background-color: #FFE268;
+    padding: 1rem;
+    border: 1px solid #FFB037;
+    border-radius: 0px 25px 25px 0px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #100F0F;
+    text-decoration: none;
+    box-shadow: 10px 10px #000;
+    margin: 0rem;
+}
+
+.aboutMeButton:hover {
+    background-color: #FFB037;
+    color: #ffe5bd;
+}
+
+.blogsButton:hover {
+    background-color: #FFB037;
+    color: #ffe5bd;
+}
+
+.projectButton:hover {
+    background-color: #FFB037;
+    color: #ffe5bd;
 }
 
 .projectsHeader {
@@ -145,16 +175,16 @@ body {
 
 footer {
     text-align: center;
-    Color: #c5b358;
+    Color: #FFB037;
     margin: 10rem 0;
-    Border-top: 1px solid #9277AC;
+    Border-top: 1px solid #FFB037;
 }
 
 .copyRight {
     margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
-    color: #c5b358;
+    color: #FFB037;
     display: block;
 }
 
