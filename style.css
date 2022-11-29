@@ -234,3 +234,14 @@ footer {
     }
 }
 
+@media only screen and (max-height: 600px) {
+    .hero {
+        padding-top: 7rem;
+    }
+}
+
+@media only screen and (max-height: 300px) {
+    .hero {
+        padding-top: 14rem;
+    }
+}
