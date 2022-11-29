@@ -91,7 +91,7 @@ body {
 .projectButton {
     background-color: #FFE268;
     padding: 1rem;
-    border: 1px solid #FFB037;
+    border: 2px solid #FFB037;
     border-radius: 0px 25px 25px 0px;
     font-size: 0.9rem;
     font-weight: 700;
@@ -120,7 +120,7 @@ body {
     margin: 1.5rem 3rem;
     text-align: center;
     padding: 0.5rem;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 .projectCard {
@@ -133,12 +133,17 @@ body {
     border-radius: 1rem;
     box-shadow: 10px 10px 5px #000
 }
+.projectCard a {
+    text-decoration: none;
+    color: #200439; 
+}
 
-.projectCard img {
+.projectCard iframe {
     width: 100%;
-    height: auto;
-    border-radius: 3rem;
+    height: 25rem;
+    border-radius: 0.5rem;
     margin: 1rem 0;
+    border:3px solid #200439;
 }
 
 .projectCard h2 {
@@ -219,13 +224,13 @@ footer {
     
     .projectsGallery {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
     }
     
     .projectCard {
-        max-width: 20%
+        max-width: 300%
     }
 }
 
