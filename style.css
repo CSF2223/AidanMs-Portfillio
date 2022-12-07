@@ -120,22 +120,24 @@ body {
     margin: 1.5rem 3rem;
     text-align: center;
     padding: 0.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .projectCard {
-    background-color: #fff;
-    color: #200439;
+    background-color: #f5ec89;
+    color: #a66c14;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
-    border: 1px solid #9277AC;
-    border-radius: 1rem;
-    box-shadow: 10px 10px 5px #000
+    border: 1px solid #8c5c12;
+    border-radius: 15%;
+    box-shadow: 10px 10px #000;
+    font-family: 'Ubuntu', sans-serif;
 }
 .projectCard a {
     text-decoration: none;
-    color: #200439; 
+    color: #8c5c12; 
 }
 
 .projectCard iframe {
@@ -143,7 +145,7 @@ body {
     height: 25rem;
     border-radius: 0.5rem;
     margin: 1rem 0;
-    border:3px solid #200439;
+    border:3px solid #8c5c12;
 }
 
 .projectCard h2 {
@@ -200,10 +202,36 @@ footer {
     align-items: center;
     margin: 0;
     height: 80vh;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu';
     letter-spacing: 2px;
 }
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.me img {
+    width: 90vw;
+    height: auto;
+    padding:0px;
+    border: 5px solid #8c5c12;
+    text-align:center;
+}
+.socials {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    border: 1px solid #8c5c12;
+    background-color: #FFB037;
+}
+.socials img {
+    border-radius: 50%;
+    padding: 10px;
+}
 
 @media (min-width: 800px) {
     .hero {
@@ -234,6 +262,10 @@ footer {
     
     .projectCard {
         max-width: 300%
+    }
+    .socials {
+    border-radius: 50px;
+    width: 90vw;
     }
 }
 
