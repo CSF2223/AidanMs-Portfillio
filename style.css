@@ -184,6 +184,7 @@ footer {
     text-align: center;
     Color: #FFB037;
     margin: 0rem 0;
+    padding-bottom: 5px;
     Border-top: 1px solid #FFB037;
 }
 
@@ -205,6 +206,17 @@ footer {
     font-family: 'Ubuntu';
     letter-spacing: 2px;
 }
+
+.aboutTitle {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    border: 5px solid #8c5c12;
+    background-color: #FFB037;
+}
+
 .aboutMe {
     display: flex;
     flex-direction: column;
@@ -213,11 +225,12 @@ footer {
 }
 
 .me img {
-    width: 90vw;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 50vh;
     padding:0px;
     border: 5px solid #8c5c12;
-    text-align:center;
 }
 .socials {
     display:flex;
@@ -225,12 +238,26 @@ footer {
     justify-content: center;
     align-items: center;
     width:100vw;
-    border: 1px solid #8c5c12;
+    border: 5px solid #8c5c12;
     background-color: #FFB037;
+    margin-bottom: 1px;
 }
 .socials img {
     border-radius: 50%;
     padding: 10px;
+}
+
+.rightSide {
+    display: flex;
+    flex-basis: 100%;
+    background-color: #FFB037;
+    border: 5px solid #8c5c12;
+    height: 50vh;
+}
+
+.aboutText {
+    padding: 5px;
+    text-indent: 5rem;
 }
 
 @media (min-width: 800px) {
@@ -263,9 +290,30 @@ footer {
     .projectCard {
         max-width: 300%
     }
+    
+    .aboutMe {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .me img {
+        max-height: 50%;
+    }
+    
     .socials {
-    border-radius: 50px;
-    width: 90vw;
+        width: 100%;
+    }
+    
+    .aboutText {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (min-width: 1500px) {
+    .aboutText {
+        font-size: 3rem;
     }
 }
 
@@ -282,5 +330,5 @@ footer {
 }
 
 .Baller {
- opacity: 0.15;   
+ opacity: 0.05;   
 }
